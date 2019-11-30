@@ -1,0 +1,21 @@
+body{
+    background-color: #EAF6F6;
+}
+hr{
+    /* background-color: white;  Some default css is applied by the browser */
+    /* border-style : dotted none none; When 3 values are specified, 1st style applies to the top, rest to left, bottom and right */
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;  /*30% of the entire width*/
+}
+h1{
+    color: #66BFBF;
+}
+h3{
+    color: #66BFBF;
+}
+img {
+    border-radius: 50%;
+}
