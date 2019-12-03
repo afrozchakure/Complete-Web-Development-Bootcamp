@@ -1,9 +1,52 @@
+/************************Tag Selectors*****************/
+
 h1{
     color: red;
-    font-size: medium;
-}
-img
-{
-    background-color: red;
+    font-size: 100px;
 }
 
+img:hover
+{
+    background-color:gold;
+}
+
+
+/*********************Class Selectors******************/
+
+.bacon {
+    background-color:green;
+}
+
+.broccoli {
+    background-color: red;
+    /* classes are also specific */
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+/*********************ID Selectors********************/
+
+#heading {
+    color:blue; 
+    /* Id's are more specific */
+}
+
+#big {
+    font-size: 1000px;
+}
+
+
+/* 
+IDs :
+1. Ids are used to identify unique elements (specify specific value) 
+2. A single Ids can be used only once.
+3. IDs are used sparingly.
+
+Class :
+1. classes are used to group related elements that are all going 
+to have all the same class value.
+2. They will override any of the other values for that element
+3. An HTML element can have more than one class but only one id
+*/
