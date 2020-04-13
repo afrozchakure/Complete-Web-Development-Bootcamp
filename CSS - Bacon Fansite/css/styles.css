@@ -1,20 +1,22 @@
 /************************Tag Selectors*****************/
 
-h1{
+h1 {
     color: red;
     font-size: 100px;
 }
 
 img:hover
+/* When we hover over it, its color should change */
+
 {
-    background-color:gold;
+    background-color: gold;
 }
 
 
 /*********************Class Selectors******************/
 
 .bacon {
-    background-color:green;
+    background-color: green;
 }
 
 .broccoli {
@@ -26,10 +28,11 @@ img:hover
     border-radius: 100%;
 }
 
+
 /*********************ID Selectors********************/
 
 #heading {
-    color:blue; 
+    color: blue;
     /* Id's are more specific */
 }
 
