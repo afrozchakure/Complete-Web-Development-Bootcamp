@@ -1,5 +1,5 @@
 # Complete-Web-Development-Bootcamp
-Complete Web Development Bootcamp Course Material
+Complete Web Development Bootcamp Course Material and other resources
 
 
 Web Development Course Resource List Link :
